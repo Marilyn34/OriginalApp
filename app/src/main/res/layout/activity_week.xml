@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/border"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:id="@+id/rowlayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/indextext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingTop="2dp"
+                android:text="①"
+                android:textColor="@color/summary" />
+
+            <TextView
+                android:id="@+id/rowtext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="2dp"
+                android:text="@string/field"
+                android:textColor="@color/summary" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rowtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/base_text" />
+
+        <TextView
+            android:id="@+id/rowtext3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/base_blue" />
+
+        <TextView
+            android:id="@+id/rowtext4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/chart_pink" />
+    </TableRow>
