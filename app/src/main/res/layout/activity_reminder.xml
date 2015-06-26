@@ -6,10 +6,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="今日のリマインダー"
+        android:text="今日の"
         android:id="@+id/textView18"
         android:layout_gravity="center_horizontal"
-        android:textSize="42dp"
+        android:textSize="57dp"
         android:textColor="#a20011ff"
         android:background="#68fff800"
         android:layout_alignParentTop="true"
@@ -26,4 +26,27 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="リマインダー"
+        android:id="@+id/textView36"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true"
+        android:textSize="55dp"
+        android:textColor="#a20011ff"
+        android:background="#68fff800" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView37"
+        android:layout_below="@+id/textView36"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:textSize="40dp"
+        android:background="#76ffffff"
+        android:textColor="#ff666666" />
 </RelativeLayout>

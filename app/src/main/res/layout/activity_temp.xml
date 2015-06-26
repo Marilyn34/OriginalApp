@@ -25,8 +25,9 @@
             android:layout_height="wrap_content"
             android:text="春・寒め"
             android:id="@+id/button15"
-            android:background="#d2e3aaff"
-            android:textColor="#fff5f5f5" />
+            android:background="#ffe3aaff"
+            android:textColor="#fff5f5f5"
+            android:onClick="sup1" />
 
         <Button
             android:layout_width="97dp"
@@ -34,7 +35,8 @@
             android:text="涼しい"
             android:id="@+id/button16"
             android:background="#d2ff55cc"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="sup2" />
 
         <Button
             android:layout_width="90dp"
@@ -42,7 +44,8 @@
             android:text="暖かい"
             android:id="@+id/button17"
             android:background="#d2ff4c8e"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="sup3" />
 
         <Button
             android:layout_width="match_parent"
@@ -50,7 +53,8 @@
             android:text="少し暑いかも"
             android:id="@+id/button18"
             android:background="#d2ff7166"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="sup4" />
     </LinearLayout>
 
     <LinearLayout
@@ -64,7 +68,8 @@
             android:text="夏・過ごしやすい"
             android:id="@+id/button19"
             android:background="#d2ffbf0a"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="sum1" />
 
         <Button
             android:layout_width="95dp"
@@ -72,7 +77,8 @@
             android:text="まだいける"
             android:id="@+id/button20"
             android:background="#d2ff9d15"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="sum2" />
 
         <Button
             android:layout_width="93dp"
@@ -80,7 +86,8 @@
             android:text="暑い"
             android:id="@+id/button21"
             android:background="#d2ff5b3f"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="sum3" />
 
         <Button
             android:layout_width="match_parent"
@@ -88,7 +95,8 @@
             android:text="溶けそう"
             android:id="@+id/button22"
             android:background="#d2ff0011"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="sum4" />
     </LinearLayout>
 
     <LinearLayout
@@ -102,7 +110,8 @@
             android:text="秋・夏残ってる"
             android:id="@+id/button23"
             android:background="#d2b4ff00"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="fal1" />
 
         <Button
             android:layout_width="95dp"
@@ -110,7 +119,8 @@
             android:id="@+id/button24"
             android:background="#d2cef348"
             android:text="快適"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="fal2" />
 
         <Button
             android:layout_width="93dp"
@@ -118,7 +128,8 @@
             android:text="肌寒い"
             android:id="@+id/button25"
             android:background="#d2bfdc11"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="fal3" />
 
         <Button
             android:layout_width="match_parent"
@@ -126,7 +137,8 @@
             android:text="冬じゃない？"
             android:id="@+id/button26"
             android:background="#d2d0ef00"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="fal4" />
     </LinearLayout>
 
     <LinearLayout
@@ -140,7 +152,8 @@
             android:text="冬・いいひんやり感"
             android:id="@+id/button11"
             android:background="#ff73fbff"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="win1" />
 
         <Button
             android:layout_width="wrap_content"
@@ -148,7 +161,8 @@
             android:text="冬本番"
             android:id="@+id/button12"
             android:background="#d236f4ff"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="win2" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -157,7 +171,8 @@
             android:text="結構寒い"
             android:id="@+id/button13"
             android:background="#d244bfff"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="win3" />
 
         <Button
             android:layout_width="wrap_content"
@@ -165,7 +180,8 @@
             android:text="極寒"
             android:id="@+id/button14"
             android:background="#d20059ff"
-            android:textColor="#fff5f5f5" />
+            android:textColor="#fff5f5f5"
+            android:onClick="win4" />
 
     </LinearLayout>
 
@@ -193,7 +209,8 @@
             android:background="@drawable/cloud"
             android:layout_weight="0.50"
             android:textSize="20dp"
-            android:textColor="#d2777abd" />
+            android:textColor="#d2777abd"
+            android:onClick="cloud" />
 
         <Button
             android:layout_width="95dp"
@@ -203,7 +220,8 @@
             android:background="@drawable/sun_weather"
             android:layout_weight="0.79"
             android:textSize="20dp"
-            android:textColor="#d2ff6500" />
+            android:textColor="#d2ff6500"
+            android:onClick="sun" />
 
         <Button
             android:layout_width="91dp"
@@ -212,7 +230,8 @@
             android:id="@+id/button29"
             android:background="@drawable/snow_flake"
             android:textSize="20dp"
-            android:textColor="#d28a8999" />
+            android:textColor="#d28a8999"
+            android:onClick="snow" />
 
         <Button
             android:layout_width="93dp"
@@ -221,7 +240,8 @@
             android:id="@+id/button30"
             android:background="@drawable/rain"
             android:textSize="20dp"
-            android:textColor="#d200a3ff" />
+            android:textColor="#d200a3ff"
+            android:onClick="rain" />
 
     </LinearLayout>
 

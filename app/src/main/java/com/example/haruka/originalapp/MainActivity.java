@@ -49,7 +49,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void clickSel(View v) {
-        Intent i = new Intent(this, TempActivity.class);
+        Intent i = new Intent(this, DayActivity.class);
         startActivity(i);
     }
 }
