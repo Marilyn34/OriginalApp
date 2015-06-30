@@ -11,33 +11,10 @@
         android:layout_height="wrap_content"
         android:text="アプリの名前"
         android:id="@+id/textView"
-        android:textSize="55dp"
+        android:textSize="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="コーデ登録"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="65dp"
-        android:textSize="25dp"
-        android:onClick="clickCo" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="スケジュール"
-        android:id="@+id/button2"
-        android:layout_alignBottom="@+id/button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textSize="25dp"
-        android:onClick="clickSche" />
 
     <Button
         android:layout_width="wrap_content"

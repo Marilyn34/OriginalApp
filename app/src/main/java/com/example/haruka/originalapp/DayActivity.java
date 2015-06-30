@@ -22,29 +22,33 @@ public class DayActivity extends ActionBarActivity {
     }
 
 
-
-    public void click(View v) {
+    public void mon(View v){
+        common.day=1;
         Intent i = new Intent(this, TempActivity.class);
         startActivity(i);
     }
 
-    public void mon(View v){
-        common.day=1;
-    }
-
     public void tue(View v){
         common.day=2;
+        Intent i = new Intent(this, TempActivity.class);
+        startActivity(i);
     }
 
     public void wed(View v){
         common.day=3;
+        Intent i = new Intent(this, TempActivity.class);
+        startActivity(i);
     }
 
     public void thu(View v){
         common.day=4;
+        Intent i = new Intent(this, TempActivity.class);
+        startActivity(i);
     }
 
     public void fri(View v){
         common.day=5;
+        Intent i = new Intent(this, TempActivity.class);
+        startActivity(i);
     }
 }

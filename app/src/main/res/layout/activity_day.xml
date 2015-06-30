@@ -17,7 +17,7 @@
             android:text="今日は何曜日？"
             android:id="@+id/textView34"
             android:layout_gravity="center_horizontal"
-            android:textSize="54dp"
+            android:textSize="50dp"
             android:textColor="#d24a00ff"
             android:background="#60ffffff" />
 

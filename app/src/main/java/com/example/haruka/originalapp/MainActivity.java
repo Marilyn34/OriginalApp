@@ -38,15 +38,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void clickCo(View v) {
-        Intent i = new Intent(this, CoordinateActivity.class);
-        startActivity(i);
-    }
 
-    public void clickSche(View v) {
-        Intent i = new Intent(this, WeekAvtivity.class);
-        startActivity(i);
-    }
 
     public void clickSel(View v) {
         Intent i = new Intent(this, DayActivity.class);
