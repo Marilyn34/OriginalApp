@@ -17,6 +17,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".DayActivity"></activity>
+
+        <activity android:name=".TempActivity"></activity>
+
+        <activity android:name=".ReminderActivity"></activity>
+
+        <activity android:name=".DrumrollActivity"></activity>
+
+        <activity android:name=".TeasingActivity"></activity>
+
+        <activity android:name=".AnnounceActivity"></activity>
+
+        <activity android:name=".EndActivity"></activity>
+
     </application>
 
 </manifest>
